@@ -1,0 +1,62 @@
+[
+    {
+        "name": "project_id",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "agent_id",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "conversation_name",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "turn_position",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "request_time",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "language_code",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "request",
+        "type": "JSON",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "response",
+        "type": "JSON",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "partial_responses",
+        "type": "JSON",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "derived_data",
+        "type": "JSON",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "conversation_signals",
+        "type": "JSON",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "bot_answer_feedback",
+        "type": "JSON",
+        "mode": "NULLABLE"
+    }
+]
